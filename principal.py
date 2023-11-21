@@ -1,11 +1,13 @@
-agenda = []
-while True:
+def menu():
     print("1 - Cadastro")
     print("2 - Pesquisa pelo nome")
     print('3 - Listar')
     print('4 - Alterar')
     print('5 - Excluir')
     print('9 - Sair')
+agenda = []
+while True:
+    menu()
     opcao = int( input('Informe a opção: '))
 
     if opcao == 1: 
