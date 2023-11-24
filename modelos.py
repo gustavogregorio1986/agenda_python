@@ -17,6 +17,7 @@ class Aluno:
         else:
             print("Aluno Reprovado")
 
+    #nesse caso não prexcisa fazer é outra ver~sao
     def incluir(vetor):
         aluno = {}
         aluno['nome'] = input("Informe o nome: ")
@@ -24,6 +25,8 @@ class Aluno:
         aluno['nota2'] = input("Informe a nota2: ")
 
         vetor.append(aluno)
+
+    #nesse casoi não precisa fazer, é outra versão
     def listar(vetor):
         for elemento in vetor:
              print(f"{elemento['nome']}\t{elemento['email']}\t{elemento['nota1']}\t{elemento['nota2']}")
